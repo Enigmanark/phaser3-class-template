@@ -1,6 +1,6 @@
-# Phaser 3 Webpack Project Template
+# Phaser 3 ES6 Project Template
 
-A Phaser 3 Project Template
+A ES6 Phaser 3 Template based on Phaser 3 official template
 
 ### Requirements
 
