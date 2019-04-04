@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "build": "webpack",
-    "start": "npm run build && webpack-dev-server --port=8000 --disableHostCheck=true --mode=development"
+    "start": "yarn run build && webpack-dev-server --port=8000 --disableHostCheck=true --mode=development"
   },
   "repository": {
     "type": "git",
@@ -13,12 +13,12 @@
   },
   "author": "Johnathan Crocker <johnathan.crocker@outlook.com>",
   "devDependencies": {
-    "webpack-dev-server": "3.1.14",
-    "webpack-cli": "3.2.1",
-    "webpack": "4.29.0",
-    "raw-loader": ">=0.5.1"
+    "webpack-dev-server": "^3.2.1",
+    "webpack-cli": "^3.3.0",
+    "webpack": "^4.29.6",
+    "raw-loader": "^2.0.0"
   },
   "dependencies": {
-    "phaser": ">=3.3.0"
+    "phaser": "^3.16.2"
   }
 }
